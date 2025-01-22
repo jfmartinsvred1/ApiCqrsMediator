@@ -7,5 +7,9 @@ namespace ApiCqrsMediator.Domain.Commands.Requests
     {
         public string Name { get; set; }
         public string Email { get; set; }
+        public CreateCustomerRequest()
+        {
+            
+        }
     }
 }
